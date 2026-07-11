@@ -7,10 +7,18 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Customers\Events\" />
-    <Folder Include="Customers\Services\" />
-    <Folder Include="Restaurants\Events\" />
-    <Folder Include="Restaurants\Services\" />
+    <Compile Remove="Customers\Events\**" />
+    <Compile Remove="Customers\Services\**" />
+    <Compile Remove="Restaurants\Events\**" />
+    <Compile Remove="Restaurants\Services\**" />
+    <EmbeddedResource Remove="Customers\Events\**" />
+    <EmbeddedResource Remove="Customers\Services\**" />
+    <EmbeddedResource Remove="Restaurants\Events\**" />
+    <EmbeddedResource Remove="Restaurants\Services\**" />
+    <None Remove="Customers\Events\**" />
+    <None Remove="Customers\Services\**" />
+    <None Remove="Restaurants\Events\**" />
+    <None Remove="Restaurants\Services\**" />
   </ItemGroup>
 
 </Project>
